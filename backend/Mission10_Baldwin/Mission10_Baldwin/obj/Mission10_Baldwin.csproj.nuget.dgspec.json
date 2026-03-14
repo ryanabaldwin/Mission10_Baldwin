@@ -10,7 +10,7 @@
         "projectUniqueName": "/Users/ryanbaldwin/RiderProjects/Mission10_Baldwin/backend/Mission10_Baldwin/Mission10_Baldwin/Mission10_Baldwin.csproj",
         "projectName": "Mission10_Baldwin",
         "projectPath": "/Users/ryanbaldwin/RiderProjects/Mission10_Baldwin/backend/Mission10_Baldwin/Mission10_Baldwin/Mission10_Baldwin.csproj",
-        "packagesPath": "/Users/ryanbaldwin/.nuget/packages/",
+        "packagesPath": "/var/folders/2g/tj34mjcj5lg4r2brdzq8_zs80000gn/T/cursor-sandbox-cache/092607a05ad568017220d99c2fdcc8e0/nuget",
         "outputPath": "/Users/ryanbaldwin/RiderProjects/Mission10_Baldwin/backend/Mission10_Baldwin/Mission10_Baldwin/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
@@ -44,6 +44,10 @@
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[8.0.25, )"
             },

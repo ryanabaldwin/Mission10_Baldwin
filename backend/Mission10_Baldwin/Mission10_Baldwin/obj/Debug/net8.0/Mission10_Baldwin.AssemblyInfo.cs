@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mission10_Baldwin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+531ea9bd2be708f3a94a1d966fc30e70c5859e74")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mission10_Baldwin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mission10_Baldwin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
