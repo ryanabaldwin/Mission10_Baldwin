@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Mission10_Baldwin.Models;
 
+// Model for the Team table
 [Table("Teams")]
 public class Team
 {

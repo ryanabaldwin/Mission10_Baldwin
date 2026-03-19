@@ -1,5 +1,6 @@
 namespace Mission10_Baldwin.Models;
 
+// Model for the BowlerResponse class
 public class BowlerResponse
 {
     public string? BowlerFirstName { get; set; }

@@ -3,6 +3,8 @@ using Mission10_Baldwin.Models;
 
 namespace Mission10_Baldwin.Data;
 
+// Context for the Bowling League database
+
 public class BowlingLeagueContext(DbContextOptions<BowlingLeagueContext> options) : DbContext(options)
 {
     public DbSet<Bowler> Bowlers => Set<Bowler>();

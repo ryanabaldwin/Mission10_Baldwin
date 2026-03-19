@@ -12,7 +12,7 @@ public class BowlersController(BowlingLeagueContext context) : ControllerBase
     [HttpGet]
     public async Task<ActionResult<IEnumerable<BowlerResponse>>> GetBowlers()
     {
-        var bowlers = await context.Bowlers
+        var bowlers = await context.Bowlers // Query to get only the bowlers for the specified teams
             .Include(b => b.Team)
             .Where(b => b.Team != null && (b.Team.TeamName == "Marlins" || b.Team.TeamName == "Sharks"))
             .OrderBy(b => b.BowlerLastName)
